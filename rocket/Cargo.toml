@@ -1,0 +1,22 @@
+[package]
+name = "hello_rocket"
+version = "0.1.0"
+authors = ["gregorioospina <g.ospinaa@uniandes.edu.co>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rocket = "0.4.2"
+dotenv = "0.13.0"
+serde = {version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+serde_derive = "1.0"
+strum = "0.17.1"
+strum_macros = "0.17.1"
+diesel_connection = {path = "../diesel"}
+
+[dependencies.rocket_contrib]
+version = "0.4.2"
+default-features = false
+features = ["json"]

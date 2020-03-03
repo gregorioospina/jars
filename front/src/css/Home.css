@@ -1,0 +1,145 @@
+.center-div {
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+}
+
+.jar-item {
+  border-radius: 14px;
+  background: #004405;
+  padding: 10pt;
+  margin: 8pt;
+}
+
+.card-img-top.svg-img {
+  height: 80px;
+}
+
+.form-control::placeholder {
+  color: rgb(206, 221, 0, 0.8);
+}
+
+.form-control.jar-search-bar {
+  background: none;
+  border: none;
+  border-bottom: solid 3pt rgb(206, 221, 0);
+  color: rgb(206, 221, 0);
+  border-radius: 0;
+  font-size: 20pt;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10pt;
+}
+
+.card.menu-btn {
+  background-color: rgb(206, 221, 0);
+  color: #194e00;
+  border-radius: 5pt;
+  border: none;
+  padding-top: 5pt;
+  padding-bottom: 5pt;
+  text-decoration: none;
+  text-align: center;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.irish-title {
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.checked-img {
+  position: inherit;
+  width: 40px;
+  margin-right: 15px;
+}
+
+.checked-img.smaller {
+  width: 30px;
+}
+
+.check-col,
+.btn-check {
+  margin: 0;
+  padding: 0;
+}
+
+.menu-link {
+  color: #194e00;
+  text-decoration: none;
+}
+
+.irish-btn {
+  background-color: #cedd00;
+  color: #194e00;
+  position: fixed;
+  bottom: 3em;
+  border-radius: 5pt;
+  border: none;
+  text-decoration: none;
+  left: 35%;
+  right: 35%;
+}
+
+.title-login {
+  margin-top: 20px;
+  margin-bottom: 6em;
+}
+
+.jars-render {
+  text-align: left;
+}
+
+.ranking-jar-0 {
+  color: #ffed4b;
+}
+
+.ranking-jar-1 {
+  color: #cdf5ff;
+}
+
+.ranking-jar-2 {
+  color: #b87700;
+}
+
+.ranking-jar {
+  font-size: 20pt;
+}
+
+.login-btn {
+  background-color: rgb(206, 221, 0);
+  position: fixed;
+  bottom: 3em;
+  border-radius: 5pt;
+  border: none;
+  left: 35%;
+  right: 35%;
+}
+
+.btn-row {
+  padding: 15px;
+  display: block;
+}
+
+.search-container {
+  margin-top: 40pt;
+}
+
+h1,
+h2 {
+  font-weight: bold;
+  margin: 0;
+}
+
+h3 {
+  margin: 0;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+h4 {
+  margin: 0;
+}
