@@ -4,6 +4,7 @@ import Login from "./components/Login";
 import Home from "./components/Home";
 import JarRanking from "./components/JarRanking";
 import JarSearch from "./components/JarSearch";
+import JarCreate from "./components/JarCreate";
 
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
@@ -16,6 +17,7 @@ function App() {
           <Route path="/jars" exact component={Home} />
           <Route path="/jars/ranking" exact component={JarRanking} />
           <Route path="/jars/search" exact component={JarSearch} />
+          <Route path="/jars/create" exact component={JarCreate} />
         </Switch>
       </Router>
     </>

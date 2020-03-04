@@ -55,7 +55,6 @@ pub fn show_jars_fn() -> std::vec::Vec<std::string::String> {
         let json = serde_json::to_string(&jar);
         list.push(json.unwrap());
     }
-    println!("{:?}", list);
     list
 }
 
@@ -80,7 +79,6 @@ pub fn show_by_queries() -> std::vec::Vec<std::string::String> {
     for jar in result {
         list.push(serde_json::to_string(&jar).unwrap());
     }
-    println!("most loyal {:?}", list);
     list
 }
 

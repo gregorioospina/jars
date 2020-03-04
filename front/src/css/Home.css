@@ -44,6 +44,13 @@
   margin-right: 15%;
 }
 
+.jar-form-input {
+  background: none;
+  border: none;
+  border-bottom: #cedd00 3pt solid;
+  border-radius: none;
+}
+
 .irish-title {
   padding-top: 20px;
   padding-bottom: 30px;
@@ -73,13 +80,23 @@
 .irish-btn {
   background-color: #cedd00;
   color: #194e00;
-  position: fixed;
+  position: inherit;
   bottom: 3em;
   border-radius: 5pt;
   border: none;
   text-decoration: none;
   left: 35%;
   right: 35%;
+}
+
+.create-button-div {
+  padding-top: 20px;
+}
+
+.irish-btn.create {
+  width: 100px;
+  font-weight: bold;
+  font-size: 15pt;
 }
 
 .title-login {

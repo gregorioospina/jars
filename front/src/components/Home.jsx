@@ -27,6 +27,14 @@ const Home = () => {
           </Link>
         </div>
       </div>
+      <div className="card menu-btn">
+        <img className="card-img-top svg-img" src={medal} alt="jar search" />
+        <div className="card-body">
+          <Link className="menu-link" to={`jars/create`}>
+            <h2> Crear Nuevo </h2>
+          </Link>
+        </div>
+      </div>
       <div className="row btn-row">
         <Link className="btn irish-btn bottom-btn" to={`/`}>
           Back
